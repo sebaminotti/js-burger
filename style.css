@@ -1,0 +1,106 @@
+*{
+padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.app{
+margin: 2vh auto;
+width: 80vw;
+height: 80vh;
+border: 1px solid red;
+}
+header{
+background-color: green;
+width: 100%;
+height: 10vh;
+border: 0.5px solid red;
+}
+.coupon{
+float: right;
+width: 15vw;
+margin-right: 2vw;
+}
+#couponCliente{
+width: 15vw;
+height: 3vh;
+margin-top: 0.1vh;
+text-align: center;
+}
+header h1 {
+font-family: sans-serif; letter-spacing: 2px; font-size: 2.5em;
+font-weight: 900;
+text-align: center;
+background-color: orange;
+color: red;
+}
+.menu_left{
+float: left;
+width: 10vw;
+height: 70vh;
+border: 0.5px solid black;
+}
+main{
+width: 70vw;
+height: 60vh;
+border: 1px solid green;
+margin-left: 10vw;
+}
+
+footer {
+width: 100%;
+height: 10vh;
+border: 1px solid blue
+}
+#burgerName{
+width: 20vw;
+height: 3vh;
+margin-top: 0.1vh;
+margin-left: 2vw;
+
+}
+.menu_left h3{
+font-family: sans-serif;
+font-weight: 900;
+
+}
+.Ingredienti img {
+width: 30%;
+height: 6vh;
+}
+.Ingredienti {
+margin-top: 2vh;
+margin-left: 5px;
+}
+
+.scontistica{
+width: 100%;
+height: 10vh;
+border: 1px solid orange;
+}
+.bottone{
+float: right;
+margin-right: 2vw;
+margin-top: 0.5vh;
+}
+
+.totale {
+width: 40vw;
+height: 100%;
+margin-left: 50%;
+transform: translate(-50%);
+border: 1px solid red;
+}
+.totale h2, .totale h3 {
+text-align: center;
+}
+
+.carni{
+width: 20%;
+height: 60vh;
+border: 1px solid greenyellow;
+}
+.carni h3 {
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
